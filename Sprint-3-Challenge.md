@@ -262,14 +262,16 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
 ​
 Answer both of these questions (baseline ~5 sentences) here in text.
+
+When I review code I make sure to that my code is properly commented with docstrings for each module, class, functions and methods. This allows me to properly remind myself in the future what each unit is for, especially when trying to reference it to write new and similiar units.
+Containers let us recreate the environment to run apps and code without having to install new OS for each instance. Since they are lightweight, they take up less storage space on the hardware. This allows us to have more container on storage that is easier to access.
 ​
-- The most important part of code reviews, and the reason they are crucial, is because of the philosophy that "code is read more often than it is written." Getting another set of eyes on one's code to make sure it is logical, flows nicely, and, most importantly, that it makes sense is the most important thing. When I am personally involved in code reviews, I try to make these points a focus, and like when others do the same for me. Secondarily is the confirmation that the code isn't easily "breakable." Finally, it's helpful to have someone else confirm the code's stylistic compliance.
--Containers let everyone have access to the same versions of files and the environments they live in, meaning that edits can happen collaboratively. This allows everyone working on a project to work as they normally would, without creating concerns for merging a completed project.
 ​
 ### Part 8 - Turn it in!
 ​
